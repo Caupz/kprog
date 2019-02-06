@@ -3,6 +3,8 @@ public class Arvutus{
 		int vanus = 12;
 		if(vanus < 18) {
 			System.out.println("lapsepilet");
+		} else {
+			System.out.println("täispilet");
 		}
 	}
 }
