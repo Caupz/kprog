@@ -1,6 +1,7 @@
 package caupo;
 
 public class IntEx {
+	public static void main(String[] args) {}
 	public static boolean CanParse(String value) {  
 		try {  
 			Integer.parseInt(value);  

@@ -15,5 +15,7 @@ public class Sisend {
 		
 		String s = Console.ReadLine("Sisesta sisend: ");
 		Console.WriteLine("SISEND OLI: "+s);
+		
+		FileEx.Append("test1.txt", s);
 	}
 }
